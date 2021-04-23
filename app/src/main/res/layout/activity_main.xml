@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@color/color_text"
+            android:textSize="35sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.7"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttonVideo"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/margin_button"
+            android:backgroundTint="@color/color_primary"
+            android:text="@string/pick_video_button" />
+
+        <Button
+            android:id="@+id/buttonImage"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/color_primary"
+            android:layout_margin="@dimen/margin_button"
+            android:text="@string/pick_image_button" />
+
+        <Button
+            android:id="@+id/buttonLight"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/margin_button"
+            android:backgroundTint="@color/color_primary"
+            android:text="@string/brightness_button" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/light_sensor_available"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_button"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:text="@string/light_sensor_available"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/sensor_reading_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_button"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:text="@string/sensor_reading_data"
+        android:textAlignment="center" />
+
+</LinearLayout>

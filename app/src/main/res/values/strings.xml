@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Dáng ngồi</string>
+    <string name="app_directory">dang_ngoi</string>
+    <string name="pick_video_button">Phân tích camera</string>
+    <string name="pick_image_button">Phân tích ảnh chụp</string>
+    <string name="brightness_button">Phân tích độ sáng</string>
+    <string name="title_activity_camera_view">Quay camera</string>
+    <string name="title_activity_pick_image">Chụp ảnh</string>
+    <string name="title_processing">Đang chờ</string>
+    <string name="camera_processing">Đang chờ</string>
+
+    <string name="capture_new">Chụp ảnh mới</string>
+    <string name="light_sensor_available">Cảm biến ánh sáng khả dụng</string>
+    <string name="sensor_reading_data">Cảm biến đang đọc dữ liệu</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+</resources>
